@@ -11,7 +11,7 @@ import warbler4 from './screens/warbler4.png';
 //TODO: ADD TESTING DESCRIPTION
 const jobly = {
   title: 'Jobly',
-  description: `ABOUT: Jobly is a mock app that allows users to view companies and apply to jobs posted by those companies. The app features a full user signup/login process as well as authorization/authentication using JSON web token and bcrypt. The styling is done using ReactStrap and Bootstrap. Animations are used to various places to enhance the user experience as well as give feedback on loading. The backend is built in Node/Express and the frontend is built in React. PostgreSQL is the database that is used. Unit and integrations tests are written using jest. Feel free to checkout the github link for all the code as well as the external link to a live hosted site.`,
+  description: `ABOUT: Jobly is a mock app that allows users to view companies and apply to jobs posted by those companies. The app features a full user signup/login process as well as authorization/authentication using JSON web token and bcrypt. The styling is done using ReactStrap and Bootstrap. Animations are used to various places to enhance the user experience as well as give feedback on loading. The backend is built in Node/Express and the frontend is built in React. PostgreSQL is the database that is used. Unit and integrations tests are written using jest. Feel free to check out the github link for all the code as well as the external link to a live hosted site.`,
   screens: [jobly1, jobly2, jobly3, jobly4],
   tech: ['React', 'Node/Express', 'PostgreSQL'],
   nextProject: 'bolt',
@@ -29,7 +29,7 @@ const bolt = {
 
 const warbler = {
   title: 'Warbler',
-  description: `ABOUT: Warbler is a mock twitter clone built completely as a backend application. Users can signup/login, follow other users, be followed by other users, create warbles which are tweets, as well as direct message other users. User authentication/authorization is done with bcrypt for verification and sessions are used to store current user information. The backend is built in Flask and Jinja is used as a templating system for the HTML. PostgreSQL is the database that is used. Tests are written for the views and models using the unittest module. Feel free to checkout the github link for all the code as well as the external link to a live hosted site.`,
+  description: `ABOUT: Warbler is a mock twitter clone built completely as a backend application. Users can signup/login, follow other users, be followed by other users, create warbles which are tweets, as well as direct message other users. User authentication/authorization is done with bcrypt for verification and sessions are used to store current user information. The backend is built in Flask and Jinja is used as a templating system for the HTML. PostgreSQL is the database that is used. Tests are written for the views and models using the unittest module. Feel free to check out the github link for all the code as well as the external link to a live hosted site.`,
   screens: [warbler1, warbler2, warbler3, warbler4],
   tech: ['Jinja', 'Flask', 'PostgreSQL'],
   github: 'https://github.com/hineshamin/warbler',
