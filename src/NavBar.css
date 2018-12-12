@@ -1,0 +1,74 @@
+.NavBar {
+  width: 200px;
+  margin-top: 32px;
+  margin-bottom: 101px;
+}
+
+.NavBar-link > a {
+  color: white;
+}
+
+.NavBar-link :hover {
+  text-decoration: none;
+  color: #43e0ff;
+}
+
+.NavBar-link > a.active {
+  color: #43e0ff;
+}
+
+.NavBar-logo {
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 101px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  animation: fadein 2s;
+}
+
+.navbar-collapse {
+  animation: none;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .NavBar {
+    margin-bottom: 70px;
+    margin-top: 20px;
+  }
+  .NavBar-logo {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .NavBar {
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+  }
+  .NavBar-logo {
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+}

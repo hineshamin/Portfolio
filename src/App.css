@@ -1,32 +1,351 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  font-family: Avenir;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.NavBarBurger {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#BigHeader {
+  font-size: 100px;
+  max-width: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
+#subtext {
+  max-width: 1000px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  .NavBarBurger {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .NavBarReg {
+    display: none;
+  }
+}
+
+h3.light {
+  font-family: Avenir;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: -0.7px;
+  color: #ffffff;
+}
+
+h3.active {
+  color: #43e0ff;
+  font-family: Avenir;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: -0.7px;
+}
+
+h3.dark {
+  color: #23242b;
+  font-family: Avenir;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: -0.7px;
+}
+
+h2.light {
+  color: white;
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+
+h2.active {
+  color: #43e0ff;
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+
+h2.dark {
+  color: #23242b;
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+
+h1.light {
+  color: white;
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1.4px;
+}
+
+h1.active {
+  color: #43e0ff;
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1.4px;
+}
+
+h1.dark {
+  color: #23242b;
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1.4px;
+}
+
+p.light {
+  color: white;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: -0.4px;
+}
+
+p.active {
+  color: #43e0ff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: -0.4px;
+}
+
+p.dark {
+  color: #23242b;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: -0.4px;
+}
+
+@media (max-width: 1200px) {
+  h3.light {
+    font-size: 25px;
+  }
+
+  h3.active {
+    font-size: 25px;
+  }
+
+  h3.dark {
+    font-size: 25px;
+  }
+
+  h2.light {
+    font-size: 33px;
+  }
+
+  h2.active {
+    font-size: 33px;
+  }
+
+  h2.dark {
+    font-size: 33px;
+  }
+
+  h1.light {
+    font-size: 50px;
+  }
+
+  h1.active {
+    font-size: 50px;
+  }
+
+  h1.dark {
+    font-size: 50px;
+  }
+  #BigHeader {
+    font-size: 80px;
+    max-width: 750px;
+  }
+  #subtext {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 960px) {
+  h3.light {
+    font-size: 22px;
+  }
+
+  h3.active {
+    font-size: 22px;
+  }
+
+  h3.dark {
+    font-size: 22px;
+  }
+
+  h2.light {
+    font-size: 27px;
+  }
+
+  h2.active {
+    font-size: 27px;
+  }
+
+  h2.dark {
+    font-size: 27px;
+  }
+
+  h1.light {
+    font-size: 40px;
+  }
+
+  h1.active {
+    font-size: 40px;
+  }
+
+  h1.dark {
+    font-size: 40px;
+  }
+  #BigHeader {
+    font-size: 65px;
+    max-width: 640px;
+  }
+  #subtext {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3.light {
+    font-size: 18px;
+  }
+
+  h3.active {
+    font-size: 18px;
+  }
+
+  h3.dark {
+    font-size: 18px;
+  }
+
+  h2.light {
+    font-size: 21px;
+  }
+
+  h2.active {
+    font-size: 21px;
+  }
+
+  h2.dark {
+    font-size: 21px;
+  }
+
+  h1.light {
+    font-size: 32px;
+  }
+
+  h1.active {
+    font-size: 32px;
+  }
+
+  h1.dark {
+    font-size: 32px;
+  }
+  #BigHeader {
+    font-size: 50px;
+    max-width: 500px;
+  }
+  #subtext {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  h3.light {
+    font-size: 18px;
+  }
+
+  h3.active {
+    font-size: 18px;
+  }
+
+  h3.dark {
+    font-size: 18px;
+  }
+
+  h2.light {
+    font-size: 20px;
+  }
+
+  h2.active {
+    font-size: 20px;
+  }
+
+  h2.dark {
+    font-size: 20px;
+  }
+
+  h1.light {
+    font-size: 22px;
+  }
+
+  h1.active {
+    font-size: 22px;
+  }
+
+  h1.dark {
+    font-size: 22px;
+  }
+  p.light {
+    font-size: 16px;
+  }
+
+  p.active {
+    font-size: 16px;
+  }
+
+  p.dark {
+    font-size: 16px;
+  }
+  #BigHeader {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  #BigHeader {
+    font-size: 30px;
   }
 }

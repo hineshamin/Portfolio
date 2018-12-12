@@ -1,0 +1,87 @@
+.jobly {
+  background-image: url('./screens/jobly.png');
+}
+
+.warbler {
+  background-image: url('./screens/warbler.png');
+}
+
+.bolt {
+  background-image: url('./screens/bolt.png');
+}
+
+.WorkCard-image {
+  height: 0;
+  width: 100%;
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 70px;
+}
+
+.WorkCard-image > div {
+  margin-left: 50%;
+  margin-bottom: 32%;
+}
+
+.WordCard-button-link {
+  width: 100%;
+  padding: 5px;
+  border-radius: 1px;
+  border-color: white;
+  border-style: solid;
+  margin-top: 15px;
+}
+
+.WordCard-button-link:hover {
+  background-color: #00bd7b;
+  border-color: #00bd7b;
+}
+
+.WordCard-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.WorkCard-image h2 {
+  font-size: 25px;
+}
+
+.WorkCard-image h3 {
+  font-size: 20px;
+}
+
+@media (max-width: 479px) {
+  .WorkCard {
+    display: none;
+  }
+}
+
+@media (max-width: 986px) {
+  .WorkCard-image h2 {
+    font-size: 20px;
+  }
+
+  .WorkCard-image h3 {
+    font-size: 15px;
+  }
+  .WorkCard-image {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .WorkCard-image h2 {
+    font-size: 15px;
+  }
+
+  .WorkCard-image h3 {
+    font-size: 10px;
+  }
+  .WorkCard-image {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,53 @@
+.hidden {
+  display: none;
+}
+
+#content {
+  margin-top: 200px;
+}
+
+.ProjectPage-image {
+  width: 100%;
+  margin-top: 150px;
+}
+
+#ProjectPage-next {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#ProjectPage-next:hover {
+  text-decoration: none;
+}
+
+#ProjectPage-next > h1:hover {
+  color: #43e0ff;
+}
+
+@media (max-width: 480px) {
+  #content {
+    margin-top: 100px;
+  }
+
+  .ProjectPage-image {
+    margin-top: 50px;
+  }
+
+  #ProjectPage-next {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+.spacer {
+  height: 100px;
+}
+
+.fas.fa-external-link-alt {
+  color: white;
+}
+
+.fas.fa-external-link-alt:hover {
+  color: #00bd7b;
+  text-decoration: none;
+}

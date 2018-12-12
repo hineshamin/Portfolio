@@ -1,0 +1,19 @@
+.NavBarBurger {
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+  padding: 0px;
+}
+
+.navbar.navbar-dark.bg-faded {
+  display: block;
+  padding: 0px;
+  width: 200px;
+}
+
+.NavBarBurger-col {
+  padding-left: 53px;
+  margin-bottom: 80px;
+}

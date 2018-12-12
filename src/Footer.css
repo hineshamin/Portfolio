@@ -1,0 +1,36 @@
+.fa-github:hover {
+  color: #c050ff;
+  text-decoration: none;
+}
+
+.fa-linkedin:hover {
+  color: #00bd7b;
+  text-decoration: none;
+}
+
+.fa-envelope:hover {
+  color: #43e0ff;
+  text-decoration: none;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+
+.Footer.hidden {
+  display: none !important;
+}
+
+.Footer {
+  position: fixed;
+  left: 5px;
+  bottom: 0;
+}
