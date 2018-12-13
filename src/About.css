@@ -1,0 +1,12 @@
+.About-pic {
+  width: 100%;
+}
+
+.About-link {
+  color: #43e0ff;
+}
+
+.About-link:hover {
+  color: #00bd7b;
+  text-decoration: none;
+}

@@ -14,9 +14,7 @@ class Contact extends Component {
           <div className="row">
             <div className="col-1" />
             <div className="col-10">
-              <h1 className="light">
-                You can contact me at anytime through the following methods
-              </h1>
+              <h1 className="active">Contact me</h1>
             </div>
           </div>
           <div className="row">

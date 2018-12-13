@@ -14,8 +14,8 @@ class ProjectPage extends Component {
         </MtSvgLines>
         <div key={uuid()} className="show">
           <div className="row">
-            <div className="col-1 col-sm-2 " />
-            <div className="col-10 col-sm-8">
+            <div className="col-1 col-md-2 col-xl-3" />
+            <div className="col-10 col-md-9 col-xl-8">
               <div className="row">
                 <h1 className="active" id="BigHeader">
                   {this.props.title}
@@ -46,8 +46,8 @@ class ProjectPage extends Component {
             </div>
           </div>
           <div className="row" id="content">
-            <div className="col-1 col-sm-6 " />
-            <div className="col-10 col-sm-4">
+            <div className="col-1 col-md-7 col-xl-6" />
+            <div className="col-10 col-md-4 col-xl-3">
               <p className="light">{this.props.description}</p>
             </div>
             <div className="col-sm-2 col-1" />
