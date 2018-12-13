@@ -1,0 +1,23 @@
+.btn.btn-primary.github,
+.btn.btn-primary.linkedin,
+.btn.btn-primary.email {
+  background-color: rgba(192, 80, 255, 0);
+  border-color: white;
+  padding: 0 5;
+  margin-bottom: 20px;
+}
+
+.btn.btn-primary.github:hover {
+  background-color: #c050ff;
+  border-color: #c050ff;
+}
+
+.btn.btn-primary.linkedin:hover {
+  background-color: #43e0ff;
+  border-color: #43e0ff;
+}
+
+.btn.btn-primary.email:hover {
+  background-color: #00bd7b;
+  border-color: #00bd7b;
+}

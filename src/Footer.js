@@ -6,16 +6,22 @@ class Footer extends Component {
     return (
       <div className="Footer show">
         <h3 className="light">
-          <a href="https://github.com/hineshamin" className="fab fa-github" />
+          <a
+            href="https://github.com/hineshamin"
+            className="fab fa-github link"
+          />
         </h3>
         <h3 className="light">
           <a
             href="https://www.linkedin.com/in/hinesh-amin-9084a094/"
-            className="fab fa-linkedin"
+            className="fab fa-linkedin link"
           />
         </h3>
         <h3 className="light">
-          <a href="mailto:hineshamin01@gmail.com" className="fas fa-envelope" />
+          <a
+            href="mailto:hineshamin01@gmail.com"
+            className="fas fa-envelope link"
+          />
         </h3>
       </div>
     );
