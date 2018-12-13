@@ -20,7 +20,7 @@ class About extends Component {
           </div>
           <div className="col-10 offset-1 offset-sm-0 col-sm-3 col-md-5 col-lg-6 col-xl-7">
             <h1 className="active">About me</h1>
-            <h3 className="light">
+            <p className="light">
               Hi, my name is Hinesh Amin and I am a developer originally from
               London, grew up in Ohio, and currently reside in San Francisco. As
               a kid I had always been into sports and you could always find me
@@ -48,7 +48,7 @@ class About extends Component {
                 resume
               </a>
               .
-            </h3>
+            </p>
           </div>
         </div>
       </React.Fragment>
