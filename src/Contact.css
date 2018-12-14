@@ -1,6 +1,7 @@
 .btn.btn-primary.github,
 .btn.btn-primary.linkedin,
-.btn.btn-primary.email {
+.btn.btn-primary.email,
+.btn.btn-primary.resume {
   background-color: rgba(192, 80, 255, 0);
   border-color: white;
   margin-bottom: 20px;
@@ -19,4 +20,9 @@
 .btn.btn-primary.email:hover {
   background-color: #00bd7b;
   border-color: #00bd7b;
+}
+
+.btn.btn-primary.resume:hover {
+  background-color: #c050ff;
+  border-color: #c050ff;
 }

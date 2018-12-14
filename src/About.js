@@ -21,21 +21,37 @@ class About extends Component {
           <div className="col-10 offset-1 offset-sm-0 col-sm-3 col-md-5 col-lg-6 col-xl-7">
             <h1 className="active">About me</h1>
             <p className="light">
-              Hi, my name is Hinesh Amin and I am a developer originally from
-              London, grew up in Ohio, and currently reside in San Francisco. As
-              a kid I had always been into sports and you could always find me
-              playing them on the playground. One day I came to my elementary
-              school to play some tetherball and the BALL WAS GONE. When you’re
-              a kid, not being able to do something is one of the worst feelings
-              in the world and so I went out to hunt for a ball that I could
-              use. I found a soccer ball and I tied the string around it. It
-              didn’t work though because the ball was too slippery. Then I went
-              out a found a rubberized basketball. The friction helped it stay
-              in place. Success! Problem solving has been a passion of mine
-              since I was a kid and will continue to be a passion of mine for
-              the rest of my life. If you are looking for a developer that will
-              work hard to solve your problems, make technology that people love
-              to use, and is not afraid to think outside of the box, then{' '}
+              <b>The short version: </b>Hi, my name is Hinesh Amin and I am a
+              developer originally from London, grew up in Ohio, and currently
+              reside in San Francisco. I have 3 years experience working in tech
+              and know full stack development. Please checkout my{' '}
+              <Link className="About-link" to="/">
+                work{' '}
+              </Link>
+              and my{' '}
+              <a href={resume} className="About-link" target="_blank">
+                resume
+              </a>
+              ; and if you like what you see please{' '}
+              <Link to="/contact" className="About-link">
+                contact{' '}
+              </Link>
+              me.
+            </p>
+            <p className="light">
+              <b>The long version: </b>As a kid I had always been into sports
+              and you could always find me playing them on the playground. One
+              day I came to my elementary school to play some tetherball and the
+              BALL WAS GONE. What was I going to do? Go home? Not an option. I
+              wasn't going to leave without playing tetherball. So I went out to
+              find a ball that would work. I found a soccer ball and I tied the
+              string around it but it didn’t work though because the ball was
+              too slippery. Then I went out a found a rubberized basketball. The
+              friction helped it stay in place. Success! Problem solving has
+              been a passion of mine since I was a kid and will continue to be a
+              passion of mine for the rest of my life. If you are looking for
+              someone that will solve problems, build great technology, and is
+              not afraid to think outside of the box to do so, then{' '}
               <Link to="/contact" className="About-link">
                 contact
               </Link>{' '}

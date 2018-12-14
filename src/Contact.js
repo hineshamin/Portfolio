@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MtSvgLines from 'react-mt-svg-lines';
 import WorkLines from './lines/WorkLines';
+import resume from './screens/resume.pdf';
 import './Contact.css';
 
 class Contact extends Component {
@@ -52,6 +53,20 @@ class Contact extends Component {
               >
                 <h3 className="light mt-2">
                   <i className="fas fa-envelope" /> Email
+                </h3>
+              </a>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-1" />
+            <div className="col-10">
+              <a
+                href={resume}
+                className="btn btn-primary resume"
+                target="_blank"
+              >
+                <h3 className="light mt-2">
+                  <i className="fas fa-file" /> Resume
                 </h3>
               </a>
             </div>
