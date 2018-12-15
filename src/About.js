@@ -21,11 +21,11 @@ class About extends Component {
           <div className="col-10 offset-1 offset-sm-0 col-sm-3 col-md-5 col-lg-6 col-xl-7">
             <h1 className="active">About me</h1>
             <p className="light">
-              <b>The short version: </b>Hi, my name is Hinesh Amin and I am a
-              developer originally from London, grew up in Ohio, and currently
-              reside in San Francisco. I have 3 years experience working in tech
-              and know full stack development. Please checkout my{' '}
-              <Link className="About-link" to="/">
+              <b>tldr: </b>Hi, my name is Hinesh Amin and I am a developer
+              originally from London, grew up in Ohio, and currently reside in
+              San Francisco. I have 3 years experience working in tech and know
+              full stack development. Please checkout my{' '}
+              <Link className="About-link" to="/work">
                 work{' '}
               </Link>
               and my{' '}
@@ -39,14 +39,14 @@ class About extends Component {
               me.
             </p>
             <p className="light">
-              <b>The long version: </b>As a kid I had always been into sports
-              and you could always find me playing them on the playground. One
-              day I came to my elementary school to play some tetherball and the
-              BALL WAS GONE. What was I going to do? Go home? Not an option. I
-              wasn't going to leave without playing tetherball. So I went out to
-              find a ball that would work. I found a soccer ball and I tied the
-              string around it but it didn’t work though because the ball was
-              too slippery. Then I went out a found a rubberized basketball. The
+              <b>long version: </b>As a kid I had always been into sports and
+              you could always find me playing them on the playground. One day I
+              came to my elementary school to play some tetherball and the BALL
+              WAS GONE. What was I going to do? Go home? Not an option. I wasn't
+              going to leave without playing tetherball. So I went out to find a
+              ball that would work. I found a soccer ball and I tied the string
+              around it but it didn’t work though because the ball was too
+              slippery. Then I went out a found a rubberized basketball. The
               friction helped it stay in place. Success! Problem solving has
               been a passion of mine since I was a kid and will continue to be a
               passion of mine for the rest of my life. If you are looking for
@@ -56,7 +56,7 @@ class About extends Component {
                 contact
               </Link>{' '}
               me. Feel free to also check out my{' '}
-              <Link className="About-link" to="/">
+              <Link className="About-link" to="/work">
                 work
               </Link>{' '}
               and my{' '}

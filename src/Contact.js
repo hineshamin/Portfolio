@@ -15,7 +15,7 @@ class Contact extends Component {
           <div className="row">
             <div className="col-1" />
             <div className="col-10">
-              <h1 className="active">Contact me</h1>
+              <h1 className="active contact">Contact me</h1>
             </div>
           </div>
           <div className="row">
@@ -24,8 +24,9 @@ class Contact extends Component {
               <a
                 href="https://github.com/hineshamin"
                 className="btn btn-primary github"
+                target="_blank"
               >
-                <h3 className="light mt-2">
+                <h3 className="text-white mt-2">
                   <i className="fab fa-github" /> Github
                 </h3>
               </a>
@@ -37,8 +38,9 @@ class Contact extends Component {
               <a
                 href="https://www.linkedin.com/in/hinesh-amin-9084a094/"
                 className="btn btn-primary linkedin"
+                target="_blank"
               >
-                <h3 className="light mt-2">
+                <h3 className="text-white mt-2">
                   <i className="fab fa-linkedin" /> LinkedIn
                 </h3>
               </a>
@@ -51,7 +53,7 @@ class Contact extends Component {
                 href="mailto:hineshamin01@gmail.com"
                 className="btn btn-primary email"
               >
-                <h3 className="light mt-2">
+                <h3 className="text-white mt-2">
                   <i className="fas fa-envelope" /> Email
                 </h3>
               </a>
@@ -65,7 +67,7 @@ class Contact extends Component {
                 className="btn btn-primary resume"
                 target="_blank"
               >
-                <h3 className="light mt-2">
+                <h3 className="text-white mt-2">
                   <i className="fas fa-file" /> Resume
                 </h3>
               </a>

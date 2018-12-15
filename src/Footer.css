@@ -34,3 +34,12 @@
   left: 10px;
   bottom: 0;
 }
+
+.fas.fa-file.link {
+  color: white;
+}
+
+.fas.fa-file.link:hover {
+  color: #c050ff;
+  text-decoration: none;
+}

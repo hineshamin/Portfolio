@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { Navbar, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
 import './NavBarBurger.css';
 
@@ -22,18 +22,25 @@ class NavBarBurger extends Component {
   render() {
     return (
       <div className="row NavBarBurger text-white show">
-        <div className="col NavBarBurger-col">
+        <div className="col offset-1 NavBarBurger-col">
           <Navbar color="faded" dark>
             <NavbarToggler onClick={this.toggleNavbar} />
-            <img
-              className="NavBar-logo"
-              src={require('./logo/LogoWhiteBox.png')}
-              alt="Logo"
-            />
-            <Collapse isOpen={!this.state.collapsed} navbar>
+            <Link to="/" className="NavBar-logo-link m-2">
+              <img
+                className="NavBar-logo"
+                src={require('./logo/LogoWhiteBox.png')}
+                alt="Logo"
+              />
+            </Link>
+            <Collapse isOpen={!this.state.collapsed} navbar className="ml-1">
               <Nav navbar>
                 <NavItem className="NavBar-link">
                   <NavLink exact to="/">
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem className="NavBar-link">
+                  <NavLink exact to="/work">
                     Work
                   </NavLink>
                 </NavItem>

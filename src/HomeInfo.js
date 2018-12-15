@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import './WorkInfo.css';
+import './HomeInfo.css';
 
-class WorkInfo extends Component {
+class HomeInfo extends Component {
   render() {
     return (
-      <div className="row WorkInfo">
+      <div className="row HomeInfo">
         <div className="col-1" />
         <div className="col-10 px-0">
           <h1 className="active" id="BigHeader">
-            Work
+            Hi, my name is Hinesh.
           </h1>
+          <h3 className="light" id="subtext">
+            I love to build technology.
+          </h3>
         </div>
         <div className="col-1" />
       </div>
@@ -17,4 +20,4 @@ class WorkInfo extends Component {
   }
 }
 
-export default WorkInfo;
+export default HomeInfo;

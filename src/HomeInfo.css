@@ -1,0 +1,33 @@
+.HomeInfo {
+  margin-bottom: 250px;
+}
+
+@media (max-width: 1200px) {
+  .HomeInfo {
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 960px) {
+  .HomeInfo {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeInfo {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeInfo {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .HomeInfo {
+    margin-bottom: 50px;
+  }
+}

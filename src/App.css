@@ -17,6 +17,9 @@
 }
 
 @media (max-width: 480px) {
+  .App {
+    margin-top: 10px;
+  }
   .NavBarBurger {
     display: block;
   }

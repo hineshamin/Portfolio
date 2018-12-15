@@ -14,22 +14,24 @@ class ProjectPage extends Component {
         </MtSvgLines>
         <div key={uuid()} className="show">
           <div className="row">
-            <div className="col-2" />
-            <div className="col-9">
-              <div className="row">
+            <div className="col-1" />
+            <div className="col-10">
+              <div>
                 <h1 className="active" id="BigHeader">
                   {this.props.title}
                 </h1>
               </div>
-              <div className="row">
+              <div>
                 <h3 className="light">{this.props.tech.join(' • ')}</h3>
               </div>
-              <div className="row">
+              <div className="row m-0">
                 <h3 className="light mr-3">
                   {this.props.github ? (
                     <a
                       href={this.props.github}
                       className="fab fa-github link"
+                      target="_blank"
+                      title="Github"
                     />
                   ) : (
                     ''
@@ -40,6 +42,8 @@ class ProjectPage extends Component {
                     <a
                       href={this.props.live}
                       className="fas fa-external-link-alt"
+                      target="_blank"
+                      title="Live Site"
                     />
                   ) : (
                     ''
@@ -50,7 +54,7 @@ class ProjectPage extends Component {
           </div>
           <div className="row" id="content">
             <div className="col-1" />
-            <div className="col-10 col-xl-6">
+            <div className="col-10 col-xl-6 offset-xl-">
               <p className="light">{this.props.description}</p>
             </div>
             <div className="col-sm-2 col-1" />
@@ -64,12 +68,21 @@ class ProjectPage extends Component {
             </div>
           ))}
           <div className="row d-flex justify-content-center">
-            <Link to={`/${this.props.nextProject}`} id="ProjectPage-next">
+            <Link
+              to={`/work/${this.props.nextProject}`}
+              id="ProjectPage-next"
+              className="mb-2"
+            >
               <h1 className="light text-center">
                 Next Project:{' '}
                 {this.props.nextProject[0].toUpperCase() +
                   this.props.nextProject.slice(1)}
               </h1>
+            </Link>
+          </div>
+          <div className="row d-flex justify-content-center m-0">
+            <Link to={`/work`} id="ProjectPage-next" className="mt-0">
+              <h1 className="light text-center">All my work</h1>
             </Link>
           </div>
         </div>

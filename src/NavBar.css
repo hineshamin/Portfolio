@@ -1,16 +1,15 @@
 .NavBar {
-  width: 200px;
+  width: 250px;
   margin-top: 32px;
   margin-bottom: 101px;
-}
-
-.NavBar-link > a {
-  color: white;
 }
 
 .NavBar-link :hover {
   text-decoration: none;
   color: #43e0ff;
+}
+.NavBar-link > a {
+  color: white;
 }
 
 .NavBar-link > a.active {
@@ -19,6 +18,9 @@
 
 .NavBar-logo {
   height: 40px;
+}
+
+.NavBar-logo-link {
   margin-top: 32px;
   margin-bottom: 101px;
 }
@@ -54,6 +56,8 @@
   }
   .NavBar-logo {
     height: 30px;
+  }
+  .NavBar-logo-link {
     margin-top: 20px;
     margin-bottom: 70px;
   }
@@ -67,8 +71,9 @@
   }
   .NavBar-logo {
     height: 25px;
+  }
+  .NavBar-logo-link {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 15px;
   }
 }

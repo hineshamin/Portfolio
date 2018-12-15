@@ -14,7 +14,7 @@ class WorkCard extends Component {
               {this.props.app[0].toUpperCase() + this.props.app.slice(1)}
             </h2>
             <h3 className="light">{this.props.tech.join(' • ')}</h3>
-            <Link className="WordCard-button" to={`/${this.props.app}`}>
+            <Link className="WordCard-button" to={`/work/${this.props.app}`}>
               <h3 className="WordCard-button-link light d-flex justify-content-center align-items-center">
                 Project Overview
               </h3>

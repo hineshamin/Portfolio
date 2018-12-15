@@ -5,6 +5,7 @@
   background-color: rgba(192, 80, 255, 0);
   border-color: white;
   margin-bottom: 20px;
+  width: 175px;
 }
 
 .btn.btn-primary.github:hover {
@@ -25,4 +26,15 @@
 .btn.btn-primary.resume:hover {
   background-color: #c050ff;
   border-color: #c050ff;
+}
+
+h1.active.contact {
+  color: #43e0ff;
+  font-family: Avenir;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1.4px;
 }

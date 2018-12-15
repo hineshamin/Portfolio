@@ -8,7 +8,7 @@ class WorkCardSm extends Component {
       <div className="row WorkCardSm">
         <div className="col-1" />
         <Link
-          to={`/${this.props.app}`}
+          to={`/work/${this.props.app}`}
           className={`col-10 WorkCardSm-image ${this.props.app}`}
         >
           <div>
