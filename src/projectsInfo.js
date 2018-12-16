@@ -76,7 +76,8 @@ const bolt = {
   screens: [bolt1, bolt2],
   tech: ['React', 'Flask', 'PostgreSQL'],
   nextProject: 'lightsout',
-  nextProjectTitle: 'Lights Out'
+  nextProjectTitle: 'Lights Out',
+  github: 'https://github.com/viveksainanee/bolt'
 };
 
 const lightsout = {
