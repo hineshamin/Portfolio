@@ -16,17 +16,39 @@ class Work extends Component {
         <div className="show">
           <WorkInfo />
           <WorkCardSm
+            app="coursereportmobile"
+            tech={[
+              'React Native',
+              'Node/Express',
+              'Rails',
+              'Redis',
+              'PostgreSQL'
+            ]}
+            title="Course Report Mobile"
+          />
+          <WorkCardSm
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
           />
-          <WorkCardSm app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
           <WorkCardSm app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
+          <WorkCardSm app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
+          <WorkCard
+            app="coursereportmobile"
+            tech={[
+              'React Native',
+              'Node/Express',
+              'Rails',
+              'Redis',
+              'PostgreSQL'
+            ]}
+            title="Course Report Mobile"
+          />
           <WorkCard
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
           />
-          <WorkCard app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
           <WorkCard app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
+          <WorkCard app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
         </div>
       </React.Fragment>
     );

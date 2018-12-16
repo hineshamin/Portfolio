@@ -10,6 +10,10 @@
   background-image: url('./screens/bolt.png');
 }
 
+.coursereportmobile {
+  background-image: url('./screens/coursereportmobile.png');
+}
+
 .WorkCard-image {
   height: 0;
   width: 100%;
@@ -37,8 +41,8 @@
 }
 
 .WordCard-button-link:hover {
-  background-color: #00bd7b;
-  border-color: #00bd7b;
+  background-color: #23242b;
+  border-color: #23242b;
 }
 
 .WordCard-button:hover {

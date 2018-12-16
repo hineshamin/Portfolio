@@ -23,15 +23,47 @@ class Home extends Component {
             </h3>
           </div>
           <WorkCardSm
+            app="coursereportmobile"
+            tech={[
+              'React Native',
+              'Node/Express',
+              'Rails',
+              'Redis',
+              'PostgreSQL'
+            ]}
+            title="Course Report Mobile"
+          />
+          <WorkCardSm
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
+            title="Jobly"
           />
-          <WorkCardSm app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
+          <WorkCardSm
+            app="warbler"
+            tech={['Jinja', 'Flask', 'PostgreSQL']}
+            title="Warbler"
+          />
+          <WorkCard
+            app="coursereportmobile"
+            tech={[
+              'React Native',
+              'Node/Express',
+              'Rails',
+              'Redis',
+              'PostgreSQL'
+            ]}
+            title="Course Report Mobile"
+          />
           <WorkCard
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
+            title="Jobly"
           />
-          <WorkCard app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
+          <WorkCard
+            app="warbler"
+            tech={['Jinja', 'Flask', 'PostgreSQL']}
+            title="warbler"
+          />
           <div className="row">
             <div className="col-1" />
             <div className="col-10 px-0">

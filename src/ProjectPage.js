@@ -54,19 +54,35 @@ class ProjectPage extends Component {
           </div>
           <div className="row" id="content">
             <div className="col-1" />
-            <div className="col-10 col-xl-6 offset-xl-">
+            <div className="col-10 col-xl-6">
               <p className="light">{this.props.description}</p>
             </div>
             <div className="col-sm-2 col-1" />
           </div>
-          {this.props.screens.map(screen => (
-            <div key={uuid()} className="row">
-              <div className="col-1" />
-              <div className="col-10">
-                <img src={screen} className="ProjectPage-image" />
-              </div>
-            </div>
-          ))}
+          {this.props.media === 'iphone'
+            ? this.props.screens.map((screen, i) =>
+                i % 2 === 0 ? (
+                  <div key={uuid()} className="row">
+                    <div className="col-5 col-sm-4 offset-1">
+                      <img src={screen} className="ProjectPage-image" />
+                    </div>
+                    <div className="col-5 col-sm-4 offset-sm-2">
+                      <img
+                        src={this.props.screens[i + 1]}
+                        className="ProjectPage-image"
+                      />
+                    </div>
+                  </div>
+                ) : null
+              )
+            : this.props.screens.map(screen => (
+                <div key={uuid()} className="row">
+                  <div className="col-1" />
+                  <div className="col-10">
+                    <img src={screen} className="ProjectPage-image" />
+                  </div>
+                </div>
+              ))}
           <div className="row d-flex justify-content-center">
             <Link
               to={`/work/${this.props.nextProject}`}
@@ -74,9 +90,7 @@ class ProjectPage extends Component {
               className="mb-2"
             >
               <h1 className="light text-center">
-                Next Project:{' '}
-                {this.props.nextProject[0].toUpperCase() +
-                  this.props.nextProject.slice(1)}
+                Next Project: {this.props.nextProjectTitle}
               </h1>
             </Link>
           </div>

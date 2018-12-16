@@ -15,10 +15,10 @@ class About extends Component {
         </MtSvgLines>
         <div className="row show mb-5">
           <div className="col-1" />
-          <div className="col-10 col-sm-7 col-md-5 col-lg-4 col-xl-3 mb-3">
+          <div className="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3 mb-3">
             <img src={profile} alt="Profile" className="About-pic" />
           </div>
-          <div className="col-10 offset-1 offset-sm-0 col-sm-3 col-md-5 col-lg-6 col-xl-7">
+          <div className="col-10 offset-1 offset-sm-0 col-sm-4 col-md-5 col-lg-6 col-xl-7">
             <h1 className="active">About me</h1>
             <p className="light">
               <b>tldr: </b>Hi, my name is Hinesh Amin and I am a developer

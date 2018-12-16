@@ -12,10 +12,8 @@ class WorkCardSm extends Component {
           className={`col-10 WorkCardSm-image ${this.props.app}`}
         >
           <div>
-            <h2 className="light">
-              {this.props.app[0].toUpperCase() + this.props.app.slice(1)}
-            </h2>
-            <h3 className="light">{this.props.tech.join('•')}</h3>
+            <h2 className="light">{this.props.title}</h2>
+            <h3 className="light">{this.props.tech.join(' • ')}</h3>
           </div>
         </Link>
         <div className="col-1" />
