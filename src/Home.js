@@ -71,7 +71,15 @@ class Home extends Component {
                 Please check out the rest of my work{' '}
                 <Link to={`/work`} className="Home-worklink">
                   here
-                </Link>
+                </Link>{' '}
+                and on{' '}
+                <a
+                  href="https://github.com/hineshamin"
+                  target="_blank"
+                  className="Home-worklink"
+                >
+                  github
+                </a>
               </h3>
             </div>
           </div>
