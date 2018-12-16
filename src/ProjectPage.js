@@ -89,15 +89,17 @@ class ProjectPage extends Component {
           </div>
 
           <div className="row d-flex justify-content-center">
-            <Link
-              to={`/work/${this.props.nextProject}`}
-              id="ProjectPage-next"
-              className="mb-2"
-            >
-              <h1 className="light text-center">
-                Next Project: {this.props.nextProjectTitle}
-              </h1>
-            </Link>
+            <div className="col-10">
+              <Link
+                to={`/work/${this.props.nextProject}`}
+                id="ProjectPage-next"
+                className="mb-2"
+              >
+                <h1 className="light text-center">
+                  Next Project: {this.props.nextProjectTitle}
+                </h1>
+              </Link>
+            </div>
           </div>
           <div className="row d-flex justify-content-center m-0">
             <Link to={`/work`} id="ProjectPage-next" className="mt-0">
