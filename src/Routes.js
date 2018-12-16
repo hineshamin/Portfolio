@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import { jobly, bolt, warbler, coursereportm } from './projectsInfo';
+import {
+  jobly,
+  bolt,
+  warbler,
+  coursereportm,
+  coursereportapp
+} from './projectsInfo';
 import Work from './Work';
 import About from './About';
 import Contact from './Contact';
@@ -34,6 +40,11 @@ class Routes extends Component {
           exact
           path="/work/bolt"
           render={() => <ProjectPage {...bolt} />}
+        />
+        <Route
+          exact
+          path="/work/coursereportapp"
+          render={() => <ProjectPage {...coursereportapp} />}
         />
         <Redirect to="/" />
       </Switch>

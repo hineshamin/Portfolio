@@ -16,6 +16,8 @@ import coursereport5 from './screens/coursereport5.png';
 import coursereport6 from './screens/coursereport6.png';
 import coursereport7 from './screens/coursereport7.png';
 import coursereportgif from './screens/coursereport.gif';
+import coursereporta1 from './screens/coursereporta1.png';
+import coursereporta2 from './screens/coursereporta2.png';
 
 const coursereportm = {
   title: 'Course Report Mobile App',
@@ -55,6 +57,15 @@ const warbler = {
   tech: ['Jinja', 'Flask', 'PostgreSQL'],
   github: 'https://github.com/hineshamin/warbler',
   live: 'https://warbler-vsha2.herokuapp.com/',
+  nextProject: 'coursereporta',
+  nextProjectTitle: 'Coure Report Comparison Tool'
+};
+
+const coursereportapp = {
+  title: 'Course Report Comparison Tool',
+  description: `ABOUT: During a month long internship with Course Report, I worked with another developer to completely redesign the comparison tool that Course Report wanted to be a highlight of their website. The current comparison tool didn’t look modern, and the code was jumbled and unclean. We worked to update the UI with a modern feel and made the tool web responsive so that it could be viewed on all platforms. We also object oriented the front end javascript so that the code was more modular and easy to expand in the future. We used jQuery for the frontend to do this.`,
+  screens: [coursereporta1, coursereporta2],
+  tech: ['jQuery', 'Rails', 'PostgreSQL'],
   nextProject: 'bolt',
   nextProjectTitle: 'Bolt'
 };
@@ -68,4 +79,4 @@ const bolt = {
   nextProjectTitle: 'Course Report Mobile'
 };
 
-export { jobly, bolt, warbler, coursereportm };
+export { jobly, bolt, warbler, coursereportm, coursereportapp };
