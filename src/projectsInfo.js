@@ -58,7 +58,7 @@ const warbler = {
   github: 'https://github.com/hineshamin/warbler',
   live: 'https://warbler-vsha2.herokuapp.com/',
   nextProject: 'coursereportapp',
-  nextProjectTitle: 'Coure Report Comparison Tool'
+  nextProjectTitle: 'Course Report Comparison Tool'
 };
 
 const coursereportapp = {
