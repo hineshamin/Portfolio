@@ -26,6 +26,10 @@
   .NavBarReg {
     display: none;
   }
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 h3.light {
