@@ -22,6 +22,10 @@
   background-image: url('./screens/lightsout.png');
 }
 
+.algorithms {
+  background-image: url('./screens/algorithms.jpg');
+}
+
 .coursereportapp h2,
 .coursereportapp h3,
 .warbler h2,

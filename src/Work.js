@@ -38,6 +38,11 @@ class Work extends Component {
             title="Warbler"
           />
           <WorkCardSm
+            app="algorithms"
+            tech={['JavaScript', 'Python']}
+            title="Algorithms"
+          />
+          <WorkCardSm
             app="coursereportapp"
             tech={['jQuery', 'Rails', 'PostgreSQL']}
             title="Course Report Comparison Tool"
@@ -68,6 +73,11 @@ class Work extends Component {
             app="warbler"
             tech={['Jinja', 'Flask', 'PostgreSQL']}
             title="Warbler"
+          />
+          <WorkCard
+            app="algorithms"
+            tech={['JavaScript', 'Python']}
+            title="Algorithms"
           />
           <WorkCard
             app="coursereportapp"

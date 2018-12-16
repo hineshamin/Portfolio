@@ -6,7 +6,8 @@ import {
   warbler,
   coursereportm,
   coursereportapp,
-  lightsout
+  lightsout,
+  algorithms
 } from './projectsInfo';
 import Work from './Work';
 import About from './About';
@@ -51,6 +52,11 @@ class Routes extends Component {
           exact
           path="/work/lightsout"
           render={() => <ProjectPage {...lightsout} />}
+        />
+        <Route
+          exact
+          path="/work/algorithms"
+          render={() => <ProjectPage {...algorithms} />}
         />
         <Redirect to="/" />
       </Switch>

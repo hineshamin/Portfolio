@@ -43,6 +43,11 @@ class Home extends Component {
             tech={['Jinja', 'Flask', 'PostgreSQL']}
             title="Warbler"
           />
+          <WorkCardSm
+            app="algorithms"
+            tech={['JavaScript', 'Python']}
+            title="Algorithms"
+          />
           <WorkCard
             app="coursereportmobile"
             tech={[
@@ -63,6 +68,11 @@ class Home extends Component {
             app="warbler"
             tech={['Jinja', 'Flask', 'PostgreSQL']}
             title="Warbler"
+          />
+          <WorkCard
+            app="algorithms"
+            tech={['JavaScript', 'Python']}
+            title="Algorithms"
           />
           <div className="row">
             <div className="col-1" />

@@ -84,11 +84,13 @@ class ProjectPage extends Component {
                   </div>
                 </div>
               ))}
-          <div className="row d-flex justify-content-center mt-5">
-            {this.props.media === 'game' ? <Game className="game" /> : null}
-          </div>
+          {this.props.media === 'game' ? (
+            <div className="row d-flex justify-content-center mt-5 mb-5">
+              <Game className="game" />
+            </div>
+          ) : null}
 
-          <div className="row d-flex justify-content-center">
+          <div className="row d-flex justify-content-center mt-5">
             <div className="col-10">
               <Link
                 to={`/work/${this.props.nextProject}`}

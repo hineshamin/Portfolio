@@ -18,6 +18,10 @@ import coursereport7 from './screens/coursereport7.png';
 import coursereportgif from './screens/coursereport.gif';
 import coursereporta1 from './screens/coursereporta1.png';
 import coursereporta2 from './screens/coursereporta2.png';
+import algorithms1 from './screens/algorithms1.gif';
+import algorithms2 from './screens/algorithms2.gif';
+import algorithms3 from './screens/algorithms3.gif';
+import algorithms4 from './screens/algorithms4.gif';
 
 const coursereportm = {
   title: 'Course Report Mobile App',
@@ -57,8 +61,19 @@ const warbler = {
   tech: ['Jinja', 'Flask', 'PostgreSQL'],
   github: 'https://github.com/hineshamin/warbler',
   live: 'https://warbler-vsha2.herokuapp.com/',
+  nextProject: 'algorithms',
+  nextProjectTitle: 'Algorithms'
+};
+
+const algorithms = {
+  title: 'Algorithms',
+  description: `ABOUT: Other than just building apps I love testing myself solving algorithm problems. I have completed a couple of coursera courses on algorithms using Python. These ranged from sorting and searching algorithms to advanced graph and dynamic programming algorithms like Dijkstra’s algorithm, minimum spanning trees, and weighted independent sets in path graphs. I have done plenty of problems on codewars in JavaScript which is website that has problems ranging from easy (8 kyu) to very hard (1 kyu). I am proud to say that I am in the 98th percentile on codewars and have done problems in the 2kyu - 4kyu range. Please feel free to look at the github repo for my implementations of these algorithms.`,
+  tech: ['JavaScript', 'Python'],
   nextProject: 'coursereportapp',
-  nextProjectTitle: 'Course Report Comparison Tool'
+  nextProjectTitle: 'Course Report Comparison Tool',
+  screens: [algorithms1, algorithms2, algorithms3, algorithms4],
+  media: 'iphone',
+  github: 'https://github.com/hineshamin/Algorithms'
 };
 
 const coursereportapp = {
@@ -91,4 +106,12 @@ const lightsout = {
   github: 'https://github.com/hineshamin/Lights-Off'
 };
 
-export { jobly, bolt, warbler, coursereportm, coursereportapp, lightsout };
+export {
+  jobly,
+  bolt,
+  warbler,
+  coursereportm,
+  coursereportapp,
+  lightsout,
+  algorithms
+};
