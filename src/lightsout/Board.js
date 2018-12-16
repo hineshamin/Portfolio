@@ -108,7 +108,7 @@ class Board extends Component {
   render() {
     // if the game is won, just show a winning msg & render nothing else
     if (this.state.hasWon) {
-      return <div>Congratulations!</div>;
+      return <h1 className="active">Congratulations, you won!</h1>;
     }
     // make table board
     return this.state.board.map((row, y) => {
