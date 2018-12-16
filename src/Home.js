@@ -62,7 +62,7 @@ class Home extends Component {
           <WorkCard
             app="warbler"
             tech={['Jinja', 'Flask', 'PostgreSQL']}
-            title="warbler"
+            title="Warbler"
           />
           <div className="row">
             <div className="col-1" />

@@ -29,9 +29,18 @@ class Work extends Component {
           <WorkCardSm
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
+            title="Jobly"
           />
-          <WorkCardSm app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
-          <WorkCardSm app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
+          <WorkCardSm
+            app="warbler"
+            tech={['Jinja', 'Flask', 'PostgreSQL']}
+            title="Warbler"
+          />
+          <WorkCardSm
+            app="bolt"
+            tech={['React', 'Flask', 'PostgreSQL']}
+            title="Bolt"
+          />
           <WorkCard
             app="coursereportmobile"
             tech={[
@@ -46,9 +55,18 @@ class Work extends Component {
           <WorkCard
             app="jobly"
             tech={['React', 'Node/Express', 'PostgreSQL']}
+            title="Jobly"
           />
-          <WorkCard app="warbler" tech={['Jinja', 'Flask', 'PostgreSQL']} />
-          <WorkCard app="bolt" tech={['React', 'Flask', 'PostgreSQL']} />
+          <WorkCard
+            app="warbler"
+            tech={['Jinja', 'Flask', 'PostgreSQL']}
+            title="Warbler"
+          />
+          <WorkCard
+            app="bolt"
+            tech={['React', 'Flask', 'PostgreSQL']}
+            title="Bolt"
+          />
         </div>
       </React.Fragment>
     );
