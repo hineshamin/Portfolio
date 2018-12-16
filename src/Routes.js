@@ -5,7 +5,8 @@ import {
   bolt,
   warbler,
   coursereportm,
-  coursereportapp
+  coursereportapp,
+  lightsout
 } from './projectsInfo';
 import Work from './Work';
 import About from './About';
@@ -45,6 +46,11 @@ class Routes extends Component {
           exact
           path="/work/coursereportapp"
           render={() => <ProjectPage {...coursereportapp} />}
+        />
+        <Route
+          exact
+          path="/work/lightsout"
+          render={() => <ProjectPage {...lightsout} />}
         />
         <Redirect to="/" />
       </Switch>

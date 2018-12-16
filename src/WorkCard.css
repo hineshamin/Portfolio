@@ -18,6 +18,10 @@
   background-image: url('./screens/coursereportapp.png');
 }
 
+.lightsout {
+  background-image: url('./screens/lightsout.png');
+}
+
 .coursereportapp h2,
 .coursereportapp h3,
 .warbler h2,

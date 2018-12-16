@@ -57,7 +57,7 @@ const warbler = {
   tech: ['Jinja', 'Flask', 'PostgreSQL'],
   github: 'https://github.com/hineshamin/warbler',
   live: 'https://warbler-vsha2.herokuapp.com/',
-  nextProject: 'coursereporta',
+  nextProject: 'coursereportapp',
   nextProjectTitle: 'Coure Report Comparison Tool'
 };
 
@@ -75,8 +75,19 @@ const bolt = {
   description: `ABOUT: Bolt is a tool for modern software planning. Bolt enables its users to make tasks and assign them to specific individuals. Tasks can have different statuses based on how far along it has been completed. This tool was build for engineers to manage their projects. User signup/login and authorization/authentication is done using JSON web token and bcrypt. The frontend is built using React. The backend is built in Flask. PostgreSQL is the database that is used.`,
   screens: [bolt1, bolt2],
   tech: ['React', 'Flask', 'PostgreSQL'],
-  nextProject: 'coursereportmobile',
-  nextProjectTitle: 'Course Report Mobile'
+  nextProject: 'lightsout',
+  nextProjectTitle: 'Lights Out'
 };
 
-export { jobly, bolt, warbler, coursereportm, coursereportapp };
+const lightsout = {
+  title: 'Lights Out',
+  description: `ABOUT: Just a fun frontend game built out in React. Lights out is a logic/puzzle game, played on a grid of individual lights, which can either be lit or unlit. The puzzle is won when when all of the lights are turned off. You can click on a cell to toggle that light — but it also toggles the light above it, to the left of it, to the right of it, and below it. (Cells on an edge or in the corner won’t flip as many lights, since they are missing some neighbors). You can see the code for the game on github. Look below and give it a whirl!`,
+  tech: ['React'],
+  nextProject: 'coursereportmobile',
+  nextProjectTitle: 'Course Report Mobile',
+  screens: [],
+  media: 'game',
+  github: 'https://github.com/hineshamin/Lights-Off'
+};
+
+export { jobly, bolt, warbler, coursereportm, coursereportapp, lightsout };

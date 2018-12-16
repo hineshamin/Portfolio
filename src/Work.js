@@ -47,6 +47,7 @@ class Work extends Component {
             tech={['React', 'Flask', 'PostgreSQL']}
             title="Bolt"
           />
+          <WorkCardSm app="lightsout" tech={['React']} title="Lights Out" />
           <WorkCard
             app="coursereportmobile"
             tech={[
@@ -78,6 +79,7 @@ class Work extends Component {
             tech={['React', 'Flask', 'PostgreSQL']}
             title="Bolt"
           />
+          <WorkCard app="lightsout" tech={['React']} title="Lights Out" />
         </div>
         <div className="row">
           <div className="col-1" />

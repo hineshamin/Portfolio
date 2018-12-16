@@ -1,0 +1,36 @@
+.Cell {
+  height: 200px;
+  width: 200px;
+  background-color: darkgray;
+  transition: background-color 0.5s ease;
+  display: inline-block;
+  border: 5px solid black;
+}
+
+.Cell-lit {
+  background-color: aqua;
+  transition: background-color 0.5s ease;
+
+  border: 5px solid black;
+}
+
+@media (max-width: 1020px) {
+  .Cell {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Cell {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 515px) {
+  .Cell {
+    height: 50px;
+    width: 50px;
+  }
+}

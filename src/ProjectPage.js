@@ -3,6 +3,7 @@ import './ProjectPage.css';
 import MtSvgLines from 'react-mt-svg-lines';
 import WorkLines from './lines/WorkLines';
 import { Link } from 'react-router-dom';
+import Game from './lightsout/Game';
 import uuid from 'uuid/v4';
 
 class ProjectPage extends Component {
@@ -83,6 +84,10 @@ class ProjectPage extends Component {
                   </div>
                 </div>
               ))}
+          <div className="row d-flex justify-content-center mt-5">
+            {this.props.media === 'game' ? <Game className="game" /> : null}
+          </div>
+
           <div className="row d-flex justify-content-center">
             <Link
               to={`/work/${this.props.nextProject}`}
