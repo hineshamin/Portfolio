@@ -113,7 +113,7 @@ class Board extends Component {
     // make table board
     return this.state.board.map((row, y) => {
       return (
-        <div>
+        <div className="col-12 d-flex justify-content-center">
           {row.map((val, x) => (
             <Cell
               isLit={val}
