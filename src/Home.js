@@ -18,9 +18,7 @@ class Home extends Component {
         <div className="show">
           <HomeInfo />
           <div className="row mb-4">
-            <h3 className="offset-1 offset-sm-2 light">
-              Just some of my projects
-            </h3>
+            <h3 className="offset-1 offset-sm-2 light">Featured projects</h3>
           </div>
           <WorkCardSm
             app="coursereportmobile"
