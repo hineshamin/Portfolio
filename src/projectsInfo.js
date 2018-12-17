@@ -103,7 +103,7 @@ const lightsout = {
   nextProjectTitle: 'Course Report Mobile',
   screens: [],
   media: 'game',
-  github: 'https://github.com/hineshamin/Lights-Off'
+  github: 'https://github.com/hineshamin/Lights-Out'
 };
 
 export {
