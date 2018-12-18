@@ -67,7 +67,7 @@ const warbler = {
 
 const algorithms = {
   title: 'Algorithms',
-  description: `ABOUT: Other than just building apps I love testing myself solving algorithm problems. I have completed a couple of coursera courses on algorithms using Python. These ranged from sorting and searching algorithms to advanced graph and dynamic programming algorithms like Dijkstra’s algorithm, minimum spanning trees, and weighted independent sets in path graphs. I have done plenty of problems on codewars in JavaScript which is website that has problems ranging from easy (8 kyu) to very hard (1 kyu). I am proud to say that I am in the 98th percentile on codewars and have done problems in the 2kyu - 4kyu range. Please feel free to look at the github repo for my implementations of these algorithms.`,
+  description: `ABOUT: Other than building apps, I love testing myself solving algorithm problems. I have completed a couple of coursera courses on algorithms using Python. These ranged from sorting and searching algorithms to advanced graph and dynamic programming algorithms like Dijkstra’s algorithm, minimum spanning trees, and weighted independent sets in path graphs. I have done plenty of problems on codewars in JavaScript which is website that has problems ranging from easy (8 kyu) to very hard (1 kyu). I am proud to say that I am in the 98th percentile on codewars and have done problems in the 2kyu - 4kyu range. Please feel free to look at the github repo for my implementations of these algorithms.`,
   tech: ['JavaScript', 'Python'],
   nextProject: 'coursereportapp',
   nextProjectTitle: 'Course Report Comparison Tool',
@@ -87,7 +87,7 @@ const coursereportapp = {
 
 const bolt = {
   title: 'Bolt',
-  description: `ABOUT: Bolt is a tool for modern software planning. Bolt enables its users to make tasks and assign them to specific individuals. Tasks can have different statuses based on how far along it has been completed. This tool was build for engineers to manage their projects. User signup/login and authorization/authentication is done using JSON web token and bcrypt. The frontend is built using React. The backend is built in Flask. PostgreSQL is the database that is used.`,
+  description: `ABOUT: Bolt is a tool for modern software planning. Bolt enables its users to make tasks and assign them to specific individuals. Tasks can have different statuses based on how far along it has been completed. This tool was build for engineers to manage their projects. User signup/login and authorization/authentication is done using JSON web token and bcrypt. The frontend is built using React. The backend is built in Flask. PostgreSQL is the database that is used. Feel free to look at the github link for the code.`,
   screens: [bolt1, bolt2],
   tech: ['React', 'Flask', 'PostgreSQL'],
   nextProject: 'lightsout',

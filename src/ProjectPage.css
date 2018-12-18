@@ -2,6 +2,10 @@
   display: none;
 }
 
+#ProjectPage-link {
+  margin-top: 100px;
+}
+
 #content {
   margin-top: 200px;
 }
@@ -20,7 +24,7 @@
   text-decoration: none;
 }
 
-#ProjectPage-next > h1:hover {
+#ProjectPage-next > h3:hover {
   color: #43e0ff;
 }
 
