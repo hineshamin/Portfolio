@@ -1,15 +1,15 @@
 .HomeInfo {
-  margin-bottom: 101px;
+  margin-bottom: 150px;
 }
 
 @media (max-width: 768px) {
   .HomeInfo {
-    margin-bottom: 70px;
+    margin-bottom: 105px;
   }
 }
 
 @media (max-width: 480px) {
   .HomeInfo {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }

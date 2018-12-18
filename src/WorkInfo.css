@@ -1,15 +1,15 @@
 .WorkInfo {
-  margin-bottom: 101px;
+  margin-bottom: 150px;
 }
 
 @media (max-width: 768px) {
   .WorkInfo {
-    margin-bottom: 70px;
+    margin-bottom: 105px;
   }
 }
 
 @media (max-width: 480px) {
   .WorkInfo {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
