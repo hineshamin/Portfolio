@@ -10,7 +10,7 @@ class HomeInfo extends Component {
           <h1 className="active" id="BigHeader">
             Hi, my name is Hinesh.
           </h1>
-          <h3 className="light" id="subtext">
+          <h3 className="light mt-3" id="subtext">
             I love to build technology.
           </h3>
         </div>

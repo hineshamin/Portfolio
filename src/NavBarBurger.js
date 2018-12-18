@@ -22,8 +22,8 @@ class NavBarBurger extends Component {
   render() {
     return (
       <div className="row NavBarBurger text-white show">
-        <div className="col offset-1 NavBarBurger-col">
-          <Navbar color="faded" dark>
+        <div className="col offset-1 NavBarBurger-col p-0">
+          <Navbar color="faded" dark className="p-0">
             <NavbarToggler onClick={this.toggleNavbar} />
             <Link to="/" className="NavBar-logo-link m-2">
               <img

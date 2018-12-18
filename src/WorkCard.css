@@ -35,7 +35,7 @@
 
 .coursereportapp .WordCard-button-link,
 .warbler .WordCard-button-link {
-  width: 100%;
+  width: 20vw;
   padding: 5px;
   border-radius: 1px;
   border-color: #23242b;
@@ -66,7 +66,7 @@
 }
 
 .WordCard-button-link {
-  width: 100%;
+  width: 20vw;
   padding: 5px;
   border-radius: 1px;
   border-color: white;
@@ -115,7 +115,6 @@
   .WorkCard-image h2 {
     font-size: 15px;
   }
-
   .WorkCard-image h3 {
     font-size: 10px;
   }

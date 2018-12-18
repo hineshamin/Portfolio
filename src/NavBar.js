@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div className="row NavBarReg show">
         <div className="col-1" />
-        <div className="d-flex col-10 justify-content-between">
+        <div className="d-flex col-10 justify-content-between p-0">
           <Link to="/" className="NavBar-logo-link">
             <img
               className="NavBar-logo"

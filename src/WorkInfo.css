@@ -1,33 +1,15 @@
 .WorkInfo {
-  margin-bottom: 250px;
-}
-
-@media (max-width: 1200px) {
-  .WorkInfo {
-    margin-bottom: 200px;
-  }
-}
-
-@media (max-width: 960px) {
-  .WorkInfo {
-    margin-bottom: 150px;
-  }
+  margin-bottom: 101px;
 }
 
 @media (max-width: 768px) {
   .WorkInfo {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 }
 
 @media (max-width: 480px) {
   .WorkInfo {
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 320px) {
-  .WorkInfo {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
