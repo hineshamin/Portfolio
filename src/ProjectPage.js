@@ -121,7 +121,7 @@ class ProjectPage extends Component {
           ) : null}
           <div className="row m-0 mt-3">
             <div className="col-10 offset-1 p-0">
-              <div className="row">
+              <div className="row d-flex justify-content-center">
                 <h3 className="light mr-3">
                   {this.props.github ? (
                     <a
