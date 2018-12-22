@@ -94,10 +94,10 @@ class ProjectPage extends Component {
             ? this.props.screens.map((screen, i) =>
                 i % 2 === 0 ? (
                   <div key={uuid()} className="row">
-                    <div className="col-5 col-sm-4 offset-1 p-0">
+                    <div className="col-5 col-sm-4 offset-1 px-1">
                       <img src={screen} className="ProjectPage-image" />
                     </div>
-                    <div className="col-5 col-sm-4 offset-sm-2 p-0">
+                    <div className="col-5 col-sm-4 offset-sm-2 px-1">
                       <img
                         src={this.props.screens[i + 1]}
                         className="ProjectPage-image"
