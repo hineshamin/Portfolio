@@ -22,6 +22,8 @@ import algorithms1 from './screens/algorithms1.gif';
 import algorithms2 from './screens/algorithms2.gif';
 import algorithms3 from './screens/algorithms3.gif';
 import algorithms4 from './screens/algorithms4.gif';
+import microblog1 from './screens/microblog1.png';
+import microblog2 from './screens/microblog2.png';
 
 const coursereportm = {
   title: 'Course Report Mobile App',
@@ -69,11 +71,22 @@ const algorithms = {
   title: 'Algorithms',
   description: `ABOUT: Other than building apps, I love testing myself solving algorithm problems. I have completed a couple of coursera courses on algorithms using Python. These ranged from sorting and searching algorithms to advanced graph and dynamic programming algorithms like Dijkstra’s algorithm, minimum spanning trees, and weighted independent sets in path graphs. I have done plenty of problems on codewars in JavaScript which is website that has problems ranging from easy (8 kyu) to very hard (1 kyu). I am proud to say that I am in the 98th percentile on codewars and have done problems in the 2kyu - 4kyu range. Please feel free to look at the github repo for my implementations of these algorithms.`,
   tech: ['JavaScript', 'Python'],
-  nextProject: 'coursereportapp',
-  nextProjectTitle: 'Course Report Comparison Tool',
+  nextProject: 'microblog',
+  nextProjectTitle: 'Microblog',
   screens: [algorithms1, algorithms2, algorithms3, algorithms4],
   media: 'iphone',
   github: 'https://github.com/hineshamin/Algorithms'
+};
+
+const microblog = {
+  title: 'Microblog',
+  description: `ABOUT: My team and I built the frontend for this app using React (CRA setup), Redux, and Redux Thunk. The goal was to create an app that has a fundamentally sound component heirarchy. Another goal was to intelligently connect components to redux to prop drilling`,
+  tech: ['React', 'Redux', 'Node/Express'],
+  nextProject: 'coursereportapp',
+  nextProjectTitle: 'Course Report Comparison Tool',
+  screens: [microblog1, microblog2],
+  github: 'https://github.com/hineshamin/microblog',
+  live: 'https://microblogly-frontend.herokuapp.com'
 };
 
 const coursereportapp = {
@@ -113,5 +126,6 @@ export {
   coursereportm,
   coursereportapp,
   lightsout,
-  algorithms
+  algorithms,
+  microblog
 };

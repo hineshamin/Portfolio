@@ -80,6 +80,11 @@ class Work extends Component {
             title="Algorithms"
           />
           <WorkCard
+            app="microblog"
+            tech={['React', 'Redux', 'Node/Express']}
+            title="Microblog"
+          />
+          <WorkCard
             app="coursereportapp"
             tech={['jQuery', 'Rails', 'PostgreSQL']}
             title="Course Report Comparison Tool"
