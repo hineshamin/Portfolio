@@ -17,7 +17,7 @@ class Footer extends Component {
         </h3>
         <h3 className="light">
           <a
-            href="https://www.linkedin.com/in/hinesh-amin-9084a094/"
+            href="https://www.linkedin.com/in/hinesh-amin"
             className="fab fa-linkedin link"
             target="_blank"
             title="LinkedIn"

@@ -30,7 +30,7 @@ class Contact extends Component {
                 </h3>
               </a>
               <a
-                href="https://www.linkedin.com/in/hinesh-amin-9084a094/"
+                href="https://www.linkedin.com/in/hinesh-amin"
                 className="btn btn-primary linkedin mr-3"
                 target="_blank"
               >
