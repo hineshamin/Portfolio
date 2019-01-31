@@ -43,6 +43,11 @@ class Work extends Component {
             title="Algorithms"
           />
           <WorkCardSm
+            app="humbleabode"
+            tech={['C#', 'Unity Game Engine']}
+            title="Humble Abode"
+          />
+          <WorkCardSm
             app="microblog"
             tech={['React', 'Redux', 'Node/Express']}
             title="Microblog"
@@ -83,6 +88,11 @@ class Work extends Component {
             app="algorithms"
             tech={['JavaScript', 'Python']}
             title="Algorithms"
+          />
+          <WorkCard
+            app="humbleabode"
+            tech={['C#', 'Unity Game Engine', '3ds Max', 'Gaia']}
+            title="Humble Abode"
           />
           <WorkCard
             app="microblog"

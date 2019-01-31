@@ -24,6 +24,9 @@ import algorithms3 from './screens/algorithms3.gif';
 import algorithms4 from './screens/algorithms4.gif';
 import microblog1 from './screens/microblog1.png';
 import microblog2 from './screens/microblog2.png';
+import flyinghouse1 from './screens/flyinghouse1.png';
+import flyinghouse2 from './screens/flyinghouse2.png';
+import flyinghouse3 from './screens/flyinghouse3.png';
 
 const coursereportm = {
   title: 'Course Report Mobile App',
@@ -71,11 +74,20 @@ const algorithms = {
   title: 'Algorithms',
   description: `ABOUT: Other than building apps, I love testing myself solving algorithm problems. I have completed a couple of coursera courses on algorithms using Python. These ranged from sorting and searching algorithms to advanced graph and dynamic programming algorithms like Dijkstra’s algorithm, minimum spanning trees, and weighted independent sets in path graphs. I have done plenty of problems on codewars in JavaScript which is website that has problems ranging from easy (8 kyu) to very hard (1 kyu). I am proud to say that I am in the 98th percentile on codewars and have done problems in the 2kyu - 4kyu range. Please feel free to look at the github repo for my implementations of these algorithms.`,
   tech: ['JavaScript', 'Python'],
-  nextProject: 'microblog',
-  nextProjectTitle: 'Microblog',
+  nextProject: 'humbleabode',
+  nextProjectTitle: 'Humble Abode',
   screens: [algorithms1, algorithms2, algorithms3, algorithms4],
   media: 'iphone',
   github: 'https://github.com/hineshamin/Algorithms'
+};
+
+const humbleabode = {
+  title: 'Humble Abode',
+  description: `ABOUT: Humble Abode is a whimsical multiplayer house flying simulator for the Oculus Rift inspired by Up! Players work together to keep their home afloat, feeding their fireplace with coal in order to keep the hot air flowing  while simultaneously steering the house towards the the promised land. Hilarity and Hijinks ensue as players dodge fire and other floating obstacles while floating through a huge open world. We utilized a combination of a unique teleport-dash locomotion system, and a grabbing system with a ranged tether to reach for far away objects. Players would steer the ship by literally turning the steering wheel with their hands. Our objective was to create a fun, ambitious, and open-ended experience that challenged traditional notions of what a VR game could be. The mechanics and interactions were designed to be enjoyed in a way that no other medium could provide.`,
+  tech: ['C#', 'Unity Game Engine', '3ds Max', 'Gaia'],
+  nextProject: 'microblog',
+  nextProjectTitle: 'Microblog',
+  screens: [flyinghouse1, flyinghouse2, flyinghouse3]
 };
 
 const microblog = {
@@ -127,5 +139,6 @@ export {
   coursereportapp,
   lightsout,
   algorithms,
+  humbleabode,
   microblog
 };

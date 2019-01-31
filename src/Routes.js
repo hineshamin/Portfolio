@@ -8,7 +8,8 @@ import {
   coursereportapp,
   lightsout,
   algorithms,
-  microblog
+  microblog,
+  humbleabode
 } from './projectsInfo';
 import Work from './Work';
 import About from './About';
@@ -63,6 +64,11 @@ class Routes extends Component {
           exact
           path="/work/microblog"
           render={() => <ProjectPage {...microblog} />}
+        />
+        <Route
+          exact
+          path="/work/humbleabode"
+          render={() => <ProjectPage {...humbleabode} />}
         />
         <Redirect to="/" />
       </Switch>
